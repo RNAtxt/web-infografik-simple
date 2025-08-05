@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  line-height: 1.6;
+  background: url("../img/bg.jpg") no-repeat center center/cover;
+  min-height: 100vh;
+}
+
+.awalan {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.awalan h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: whitesmoke;
+}
+
+/* warna latar belakang */
+.awalan-1 {
+  padding: 60px 0;
+  background:  linear-gradient(135deg,  #111111,#2C2C2C );
+  color: white;
+  border-radius: 15px;
+  margin: 30px;
+}
+
+/* gambar & teks sejajar  */
+.awalan-1-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  flex-wrap: wrap; /* responsif di mobile */
+}
+
+.awalan-1-image img {
+  max-width: 100%;
+  border-radius: 10px;
+  width: 400px;
+}
+
+.awalan-1-text {
+  max-width: 500px;
+  color: #aaa;
+}
+
+.awalan-1-text h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.awalan-1-text ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.awalan-1-text ul li {
+  margin-bottom: 8px;
+}
+
+/*====================================================================================================================*/
+
+.narasi {
+  padding: 40px 0;
+  text-align: left;
+}
+
+.narasi1 {
+  padding: 60px 0;
+  background: linear-gradient(135deg, #E0E0E0, #2C2C2C);
+  color: white;
+}
+
+.narasi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25vh, 1fr));
+  gap: 30px;
+  margin: 30px;
+}
+
+/* Kotak fitur */
+.narasi-box {
+  background-color: #1e1e2f;
+  padding: 30px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.narasi-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.narasi-box h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.narasi-box p {
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 15px;
+}
+
+/* Kotak ketika aktif (warna ungu gradasi) */
+.narasi-box:hover {
+  background: linear-gradient(135deg, #4B2E2E, #B08D57);
+  color: white;
+}
+
+/*====================================================================================================================*/
+
+.deskripsi {
+  padding: 40px 0;
+  text-align: left;
+}
+
+.deskripsi-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+  flex-wrap: wrap; /*  responsif */
+  background: #222;
+  border-radius: 15px;
+}
+
+.deskripsi-text-box {
+  flex: 1;
+  min-width: 300px;
+  margin: 20px;
+}
+
+.deskripsi-text-box h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.deskripsi-text-box p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #aaa;
+}
+
+.deskripsi-slider-box {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00000066;
+  margin: 180px auto;
+  text-align: center;
+}
+
+.deskripsi-slider-box img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+  display: block;
+}
+
+.deskripsi-nav-wrapper {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.deskripsi-nav-button {
+  background: #333;
+  color: white;
+  border: none;
+  font-size: 24px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.deskripsi-nav-button:hover {
+  background: #555;
+}
+
+/*===================================================================================================================*/
+
+.footer {
+  padding: 30px 0;
+  text-align: center;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer .social-icons {
+  margin-bottom: 10px;
+}
+
+.footer .social-icons a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+  color: #0f0;
+}
+
+.footer .copyright {
+  font-size: 14px;
+  color: #aaa;
+}
+
