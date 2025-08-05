@@ -18,12 +18,16 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <section class="awalan">
       <div class="awalan">
         <h2>Infografik</h2>
         <h2>My Self</h2>
+        <div data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
           <section class="awalan-1">
             <div class="awalan-1-container">
               <div class="awalan-1-image">
@@ -41,6 +45,7 @@
                   <li>SMK N 1 Magelang</li>
                 </ul>
               </div>
+            </div>
           </section>
         </div>
       </div>
@@ -48,6 +53,7 @@
     <section class="narasi">
       <div class="narasi1">
         <div class="narasi-grid">
+          <div data-aos="fade-up-right">
             <div class="narasi-box">
               <h3>Biografi💡</h3>
               <p>
@@ -59,6 +65,8 @@
                 dasar-dasar pemrograman dan desain web.
               </p>
             </div>
+          </div>
+        <div data-aos="zoom-in">
           <div class="narasi-box">
             <h3>Impian💡</h3>
             <p>
@@ -70,6 +78,8 @@
               menciptakan karya yang bermanfaat bagi masyarakat.
             </p>
           </div>
+        </div>
+        <div data-aos="fade-up-left">
             <div class="narasi-box">
               <h3>Pantang Menyerah💡</h3>
               <p>
@@ -83,9 +93,11 @@
                 <br>
               </p>
             </div>
+        </div>
       </div>
     </section>
     <section class="deskripsi">
+      <div data-aos="zoom-out">
       <div class="deskripsi-container">
         <div class="deskripsi-text-box">
           <h2>History</h2>
@@ -124,6 +136,7 @@
             pribadi yang adaptif terhadap perubahan teknologi.
           </p>
         </div>
+        <div data-aos="zoom-out-down">
         <div class="deskripsi-slider-box">
           <img
             id="slider"
@@ -135,6 +148,8 @@
             <button id="next" class="deskripsi-nav-button">⮕</button>
           </div>
         </div>
+      </div>
+      </div>
       </div>
     </section>
     <footer class="footer">
@@ -150,5 +165,11 @@
       <p class="copyright">© 2025 RNAwebdesign</p>
     </footer>
     <script src="assets/js/slider.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: false,
+      });
+    </script>
   </body>
 </html>
