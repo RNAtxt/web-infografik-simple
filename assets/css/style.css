@@ -14,6 +14,8 @@ body {
   line-height: 1.6;
   background: url("../img/bg.jpg") no-repeat center center/cover;
   min-height: 100vh;
+  overflow-x: hidden;
+  justify-content: center;
 }
 
 .awalan {
@@ -175,6 +177,7 @@ body {
   object-fit: cover;
   border-radius: 10px 10px 0 0;
   display: block;
+  justify-content: center;
 }
 
 .deskripsi-nav-wrapper {
