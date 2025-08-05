@@ -15,7 +15,6 @@ body {
   background: url("../img/bg.jpg") no-repeat center center/cover;
   min-height: 100vh;
   overflow-x: hidden;
-  justify-content: center;
 }
 
 .awalan {
@@ -38,7 +37,7 @@ body {
   margin: 30px;
 }
 
-
+/* gambar & teks sejajar  */
 .awalan-1-container {
   display: flex;
   align-items: center;
@@ -74,7 +73,6 @@ body {
 .awalan-1-text ul li {
   margin-bottom: 8px;
 }
-
 
 /*====================================================================================================================*/
 
@@ -232,8 +230,10 @@ body {
   color: #aaa;
 }
 
-/*PERBAIKAN GEK BUDREK*/
-/* gambar & teks sejajar  */
+
+
+
+/* ==== Tambahan untuk HP atau layar kecil ==== */
 @media (max-width: 768px) {
   .awalan-1-container,
   .deskripsi-container {
@@ -245,6 +245,7 @@ body {
   .awalan-1-text,
   .deskripsi-text-box {
     padding: 0 10px;
+    text-align: center;
   }
 
   .deskripsi-slider-box {
@@ -277,4 +278,3 @@ body {
     padding: 8px 16px;
   }
 }
-
