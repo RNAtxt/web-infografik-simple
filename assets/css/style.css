@@ -38,7 +38,7 @@ body {
   margin: 30px;
 }
 
-/* gambar & teks sejajar  */
+
 .awalan-1-container {
   display: flex;
   align-items: center;
@@ -74,6 +74,7 @@ body {
 .awalan-1-text ul li {
   margin-bottom: 8px;
 }
+
 
 /*====================================================================================================================*/
 
@@ -229,5 +230,51 @@ body {
 .footer .copyright {
   font-size: 14px;
   color: #aaa;
+}
+
+/*PERBAIKAN GEK BUDREK*/
+/* gambar & teks sejajar  */
+@media (max-width: 768px) {
+  .awalan-1-container,
+  .deskripsi-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .awalan-1-text,
+  .deskripsi-text-box {
+    padding: 0 10px;
+  }
+
+  .deskripsi-slider-box {
+    margin: 40px auto;
+    width: 90%;
+    height: auto;
+  }
+
+  .narasi-grid {
+    grid-template-columns: 1fr;
+    margin: 20px;
+  }
+
+  .awalan-1-image img {
+    width: 90%;
+    height: auto;
+  }
+
+  .narasi-box {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .deskripsi-text-box p {
+    font-size: 14px;
+  }
+
+  .deskripsi-nav-button {
+    font-size: 20px;
+    padding: 8px 16px;
+  }
 }
 
